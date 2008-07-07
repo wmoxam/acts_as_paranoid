@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'acts_as_paranoid'
-  s.version = '1.0.20080706'
+  s.version = '1.1.20080706'
   s.date = '2008-07-06'
   
   s.summary = "Allows ActiveRecord models to delete, without actually deleting."
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
              "Rakefile",
              "acts_as_paranoid.gemspec",
              "init.rb",
+             "rails/init.rb",
              "lib/caboose/acts/belongs_to_with_deleted_association.rb",
              "lib/caboose/acts/has_many_through_without_deleted_association.rb",
              "lib/caboose/acts/paranoid.rb"]
