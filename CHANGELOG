@@ -1,3 +1,6 @@
+* (6 Jul 2008)
+Packaged up as a Gem [Jacques Crocker]
+
 * (4 Oct 2007)
 
 Update for Edge rails: remove support for legacy #count args 
