@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'acts_as_paranoid'
-  s.version = '1.1.20080706'
+  s.version = '1.2.20080706'
   s.date = '2008-07-06'
   
   s.summary = "Allows ActiveRecord models to delete, without actually deleting."
