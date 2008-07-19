@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'acts_as_paranoid'
-  s.version = '1.2.20080706'
-  s.date = '2008-07-06'
+  s.version = '1.3'
+  s.date = '2008-07-17'
   
   s.summary = "Allows ActiveRecord models to delete, without actually deleting."
   s.description = "Overrides some basic methods for the current model so that calling #destroy sets a 'deleted_at' field to the current timestamp.  ActiveRecord is required."
@@ -26,7 +26,8 @@ Gem::Specification.new do |s|
              "rails/init.rb",
              "lib/caboose/acts/belongs_to_with_deleted_association.rb",
              "lib/caboose/acts/has_many_through_without_deleted_association.rb",
-             "lib/caboose/acts/paranoid.rb"]
+             "lib/caboose/acts/paranoid.rb",
+             "lib/acts_as_paranoid.rb"]
 
 
   s.test_files =["test/database.yml",
