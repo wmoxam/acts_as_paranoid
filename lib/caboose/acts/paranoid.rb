@@ -133,7 +133,8 @@ module Caboose #:nodoc:
 
           protected
             def current_time
-              default_timezone == :utc ? Time.now.utc : Time.now
+              time = default_timezone == :utc ? Time.now.utc : Time.now
+              time -= time.sec # seconds are pointless and cause cache misses
             end
 
             def with_deleted_scope(&block)
